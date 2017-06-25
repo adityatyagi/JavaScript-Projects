@@ -1,0 +1,68 @@
+.center-align{
+	text-align: center;
+}
+
+
+.marketing{
+
+	background-color: ghostwhite;
+    
+}
+
+.search-btn{
+	text-align: left;
+    width: 100px;
+    background: top right no-repeat;
+    background-color: #286090;
+    background-image: url("../../images/search.png");
+    float: right;
+    margin: 15px 10px;  
+}
+
+.search-btn:hover{
+	border: 2px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #fff;
+    display: block;
+}
+
+.search-field{
+	margin-top: 15px;
+	width: 80%;
+}
+
+
+.list-left{
+	float: left;
+	width: 20%;
+}
+
+.list-left img{
+	width: 100%;
+	padding: 3px;
+	border: solid #ccc 1px;
+}
+
+.list-right{
+	float: right;
+	width: 78%;
+}
+
+.cTitle{
+	color: #dd2826;
+}
+
+.pagination-buttons{
+	background: #f4f4f4;
+	padding: 8px 13px;
+	border: #ccc 1px solid;
+	border-radius:5px;
+	color: #333;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.button-container{
+	margin-top: 25px;
+}

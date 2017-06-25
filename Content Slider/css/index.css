@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #333;
+  line-height: 1.5em;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#cont{
+  width: 980px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+#slider{
+  width: 700px;
+  height: 393px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  padding: 3px;
+  border: #666 solid 2px;
+  border-radius: 5px;
+}
+
+#slider img{
+  width: 700px;
+  height: 393px;
+
+}
+
+#next, #prev{
+  float: left;
+  margin-top: 150px;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+/*z-index is for the image should be at the top*/
+
+#next{
+  margin-left: -45px;
+}
+#prev{
+  margin-right: -45px;
+}
+
+.slide{
+  position: absolute;
+}
+
+.slide-text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #7f7f7f;
+  background-color: rgba(0,0,0,0.5);
+}

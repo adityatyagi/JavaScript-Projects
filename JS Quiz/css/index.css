@@ -1,0 +1,33 @@
+form{
+  font-size: 20px;
+  color: #a8adb3;
+}
+h3{
+  color: #000;
+}
+.submit-btn{
+  text-align: center;
+  color: #000;
+}
+input[type='submit']
+{
+  cursor: pointer;
+}
+
+#results h3{
+  background-color:#f06226;
+  padding: 10px;
+  margin: 10px 0px;
+}
+#results span{
+  color: #000;
+  font-weight: bold;
+}
+
+.missed-ques{
+  background-color: red;
+  opacity: 25%;
+}
+.lead{
+  font-size: large !important;
+}
